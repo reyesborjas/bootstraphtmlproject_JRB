@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-weight: bold;
+  }
+  .dropdown-menu a {
+    color: black;
+  }
+  .dropdown-menu .logout {
+    color: red;
+  }
+  .grid-photo {
+    width: 100%;
+    max-width: 140px;
+    height: 140px;
+    object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsionarse */
+  }
+  .single-photo {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain; /* Ajusta la imagen manteniendo la proporción */
+  }
+  
