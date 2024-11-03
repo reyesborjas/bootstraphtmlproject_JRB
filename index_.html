@@ -35,71 +35,161 @@
 
   <div class="container mt-4">
     <div class="mb-3 text-center">
-      <button class="btn btn-outline-primary" onclick="showSingleView()">Single Photo View</button>
-      <button class="btn btn-outline-secondary" onclick="showGridView()">Grid View</button>
-    </div>
+      <button onclick="showGridView()"> <img src="./img/grid.png" href="showGridView()"> </button>
+      <button onclick="showSingleView()"> <img src="./img/single.png" href="showSingleView()"> </button>
 
     <div id="single-view" class="d-none">
+      
       <div class="photo-card card mb-3">
         <div class="card-header d-flex justify-content-between">
           <h5 class="mb-0">AC / DC</h5>
           <small>08/26</small>
         </div>
-        <img src="./img/acdc.jpg" alt="acdc" class="single-photo card-img-top mx-auto">
+        <img src="./img/acdc.jpg" alt="acdc" class="single-photo card-img-top mx-auto img-fluid">
         <div class="card-body text-start">
           <p class="fw-bold">204 Likes</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
+
       <div class="photo-card card mb-3">
         <div class="card-header d-flex justify-content-between">
           <h5 class="mb-0">Black Sabbath</h5>
           <small>08/26</small>
         </div>
-        <img src="./img/BlackSabbath.jpg" alt="blacksabbath" class="single-photo card-img-top mx-auto">
+        <img src="./img/BlackSabbath.jpg" alt="blacksabbath" class="single-photo card-img-top mx-auto img-fluid">
         <div class="card-body text-start">
           <p class="fw-bold">204 Likes</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
+
       <div class="photo-card card mb-3">
         <div class="card-header d-flex justify-content-between">
           <h5 class="mb-0">Disturbed</h5>
           <small>08/26</small>
         </div>
-        <img src="./img/Disturbed.jpg" alt="disturbed" class="single-photo card-img-top mx-auto">
+        <img src="./img/Disturbed.jpg" alt="disturbed" class="single-photo card-img-top mx-auto img-fluid">
         <div class="card-body text-start">
           <p class="fw-bold">204 Likes</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
+
       <div class="photo-card card mb-3">
         <div class="card-header d-flex justify-content-between">
           <h5 class="mb-0">Dream Theater</h5>
           <small>08/26</small>
         </div>
-        <img src="./img/dreamtheater.jpg" alt="dreamtheater" class="single-photo card-img-top mx-auto">
+        <img src="./img/dreamtheater.jpg" alt="dreamtheater" class="single-photo card-img-top mx-auto img-fluid">
+        <div class="card-body text-start">
+          <p class="fw-bold">204 Likes</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> 
+      </div>
+
+      <div class="photo-card card mb-3">
+        <div class="card-header d-flex justify-content-between">
+          <h5 class="mb-0">Godsmack</h5>
+          <small>08/26</small>
+        </div>
+        <img src="./img/godsmack.png" alt="godsmack" class="single-photo card-img-top mx-auto img-fluid">
+        <div class="card-body text-start">
+          <p class="fw-bold">204 Likes</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> 
+      </div>
+
+      <div class="photo-card card mb-3">
+        <div class="card-header d-flex justify-content-between">
+          <h5 class="mb-0">Iron Maiden</h5>
+          <small>08/26</small>
+        </div>
+        <img src="./img/ironmaiden.svg" alt="iron maiden" class="single-photo card-img-top mx-auto img-fluid">
         <div class="card-body text-start">
           <p class="fw-bold">204 Likes</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
+
+      <div class="photo-card card mb-3">
+        <div class="card-header d-flex justify-content-between">
+          <h5 class="mb-0">Metallica</h5>
+          <small>08/26</small>
+        </div>
+        <img src="./img/metallica.jpg" alt="metallica" class="single-photo card-img-top mx-auto img-fluid">
+        <div class="card-body text-start">
+          <p class="fw-bold">204 Likes</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+        <div class="photo-card card mb-3">
+          <div class="card-header d-flex justify-content-between">
+            <h5 class="mb-0">Queen</h5>
+            <small>08/26</small>
+          </div>
+          <img src="./img/queen.png" alt="queen" class="single-photo card-img-top mx-auto img-fluid">
+          <div class="card-body text-start">
+            <p class="fw-bold">204 Likes</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="photo-card card mb-3">
+          <div class="card-header d-flex justify-content-between">
+            <h5 class="mb-0">Rammstein</h5>
+            <small>08/26</small>
+          </div>
+          <img src="./img/rammstein.jpg" alt="rammstein" class="single-photo card-img-top mx-auto img-fluid">
+          <div class="card-body text-start">
+            <p class="fw-bold">204 Likes</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        
+      </div>
       
     </div>
 
     <div id="grid-view" class="row text-center">
-      <div class="col-6 col-md-4 photo-card mb-3">
-        <img src="./img/acdc.jpg" alt="acdc" class="grid-photo mx-auto">
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/acdc.jpg" alt="acdc" class="grid-photo mx-auto img-fluid">
       </div>
-      <div class="col-6 col-md-4 photo-card mb-3">
-        <img src="./img/BlackSabbath.jpg" alt="blacksabbath" class="grid-photo mx-auto">
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/BlackSabbath.jpg" alt="blacksabbath" class="grid-photo mx-auto img-fluid">
       </div>
-      <div class="col-6 col-md-4 photo-card mb-3">
-        <img src="./img/Disturbed.jpg" alt="disturbed" class="grid-photo mx-auto">
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/Disturbed.jpg" alt="disturbed" class="grid-photo mx-auto img-fluid">
       </div>
-      <div class="col-6 col-md-4 photo-card mb-3">
-        <img src="./img/dreamtheater.jpg" alt="dreamtheater" class="grid-photo mx-auto">
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/dreamtheater.jpg" alt="dreamtheater" class="grid-photo mx-auto img-fluid">
       </div>
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/godsmack.png" alt="godsmack" class="grid-photo mx-auto img-fluid">
+      </div>
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/ironmaiden.svg" alt="ironmaiden" class="grid-photo mx-auto img-fluid">
+      </div>
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/metallica.jpg" alt="metallica" class="grid-photo mx-auto img-fluid">
+      </div>
+      
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/queen.png" alt="rammstein" class="grid-photo mx-auto img-fluid">
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-6 photo-card mb-3">
+        <img src="./img/rammstein.jpg" alt="rammstein" class="grid-photo mx-auto img-fluid">
+      </div>
+      
+     
     
     </div>
   </div>

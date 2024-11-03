@@ -10,14 +10,24 @@
   .grid-photo {
     width: 100%;
     max-width: 140px;
-    height: 140px;
-    object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsionarse */
+    max-height: 140px;
+    object-fit: cover; 
   }
   .single-photo {
     margin-top: 5px;
-    width: 100%;
     max-width: 500px;
     height: auto;
-    object-fit: contain; /* Ajusta la imagen manteniendo la proporción */
+    object-fit: contain; 
+  }
+  button {
+    border: none;
+    background-color: white;
+    padding: 0;
+
+  }
+
+  .photo-card {
+    overflow: hidden; 
+    position: relative; 
   }
   
