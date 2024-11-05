@@ -8,9 +8,10 @@
     color: red;
   }
   .grid-photo {
-    width: 100%;
-    max-width: 140px;
-    max-height: 140px;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover; 
   }
   .single-photo {
